@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() { // Corrected spelling of main
+    int num1, num2, sum;
+    
+    cout << "Enter Two Numbers: ";
+    cin >> num1 >> num2;
+    sum = num1 + num2; // Corrected the assignment operator from >> to =
+    
+    cout << "Sum is: " << sum << endl; // Added a message to output the sum
+    return 0;
+}
